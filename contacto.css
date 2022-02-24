@@ -44,6 +44,7 @@ input{
 }
 input::placeholder, textarea::placeholder{
     padding-left: 10px;
+    transition: 0.2s;
 }
 input:focus, textarea:focus{
     border: 3px solid #64FFDA;
@@ -51,6 +52,7 @@ input:focus, textarea:focus{
     box-shadow: 0px 0px 34px 0px #64FFDA;
     -webkit-box-shadow: 0px 0px 34px 0px #64FFDA;
     -moz-box-shadow: 0px 0px 34px 0px #64FFDA;
+    transition: 0.2s;
 }
 textarea {
     border: 1px solid black;
