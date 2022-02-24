@@ -1,0 +1,92 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+}
+.about-me-hi {
+    font-family: 'Space Mono';
+    font-size: 30px;
+    color:#64FFDA;
+    
+}
+
+.about-me-name {
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+}
+.about-me-quote {
+    font-size: 50px;
+    font-weight: 600;
+    color: #CCD6F6;
+}
+.about-me-presentation {
+    width: 70%;
+    padding: 20px 0px;
+    color: #CCD6F6;
+}
+.about-me button {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 200px;
+}
+.about-me a {
+    padding: 20px 0px;
+}
+
+.about-me-specific {
+    width: 50%;
+}
+.about-me-photo {
+    width: 50%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-specific p {
+    font-size: 15px;
+    padding-top: 15px;
+    line-height: 1.5;
+    color: #CCD6F6;
+}
+.about-me-photo img {
+    width: 50%;
+}
+
+/*
+** Animaciones
+*/
+
+.navbar-list a:hover {
+    color: #64FFDA;
+}
+
+.navbar-list li:active {
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 40px;
+    box-shadow: 0px 0px 51px 4px rgba(66,66,66,0.4);
+-webkit-box-shadow: 0px 0px 51px 4px rgba(66,66,66,0.4);
+-moz-box-shadow: 0px 0px 51px 4px rgba(66,66,66,0.4);
+}
+
+.btn-primary a:hover{
+    color: black;
+}
+
+.btn-primary:hover { 
+    background-color: #CCD6F6;
+}
+
+.btn-primary:active{
+    background-color: #64FFDA;
+}
+
+/* .btn-primary:active{
+    background-color: #CCD6F6;
+    color: #0A192F;
+} */
+/*
+** Responsive
+*/

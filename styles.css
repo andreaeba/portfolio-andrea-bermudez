@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&family=Space+Mono:wght@400;700&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0A192F;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+/*
+** Colors
+** primary: #0A192F
+** secundary: #64FFDA
+** letters: #CCD6F6
+*/
+
+/*
+** Fonts
+** primary: Roboto
+** secundary: Space Mono
+*/
+section {
+    width: 100vw;
+    /* height: 500px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: aqua; */
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+.bgc-section{
+    background-color: #f3f2f2;
+    color: #0A192F;
+}
+
+.section-wrap{
+    width: 70vw;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+   /* background-color: blueviolet; */
+}
+.display-row {
+    display: flex;
+    flex-direction: row;
+}
+.display-column{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h3 span {
+    color: #64FFDA;
+    font-family: 'Space Mono';
+}
+h4 {
+    font-size: 20px;
+}
+.btn-primary {
+    font-size: 13px;
+    padding: 0px 10px;
+    height: 40px;
+    /* border: 1px solid white;
+    border-radius: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Mono';
+    background-color: transparent;
+}
+.margin-top {
+    margin-top: 120px;
+}

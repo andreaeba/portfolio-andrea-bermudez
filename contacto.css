@@ -1,0 +1,62 @@
+.contact-section {
+    /* height: 500px; */
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 150px 0px;
+}
+.contact {
+    width: 50%;
+    /* background-color: blue; */
+    margin: 40px;
+    color: #0A192F;
+}
+.contact ul{
+    margin-top: 30px;
+}
+.contact li{
+    padding: 10px 0px;
+}
+.contact i{
+    color: #0A192F;
+    margin: 0px 10px;
+}
+.contact span{
+    color: #0A192F;
+}
+.name-lastname{
+    width: 48%;
+}
+.display-justify-between{
+    justify-content: space-between;
+}
+input{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+}
+textarea {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+form label{
+    padding-top: 15px;
+}
+
+form button{
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/*
+** Animaciones y transiciones
+*/
+
+/* .social-media-item i:hover{
+    color: wheat;
+
+} */
+
+/*
+** Responsive
+*/

@@ -1,0 +1,30 @@
+footer {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+footer li {
+    padding: 15px 15px;
+}
+.nav-menu-font {
+    font-family: 'Space Mono';
+}
+.footer-icon {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon i{
+    color: #0A192F;
+}
