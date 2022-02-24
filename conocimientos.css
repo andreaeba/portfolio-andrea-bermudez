@@ -59,4 +59,17 @@
         width: 90%;
         padding: 10px;
     }
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .skill-card {
+        width: 130px;
+        height: 130px;
+        margin: 5px;
+    }
 }

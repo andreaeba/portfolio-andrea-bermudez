@@ -233,11 +233,11 @@
                         <div class="display-row display-justify-between responsive-form">
                             <div class="name-lastname display-column">
                                 <label for="name">Nombre:*</label>
-                                <input type="text" id="idNombre"  maxlength="10" size="20" placeholder="p. ej.: Alondra">
+                                <input type="text" id="idNombre"  maxlength="10" size="20" placeholder="p. ej.: Alondra" required>
                             </div>
                             <div class="display-column name-lastname">
                                 <label for="lastname">Apellido:*</label>
-                                <input type="text" id="idApellido"  maxlength="10" size="20" placeholder="p. ej.: Silva">
+                                <input type="text" id="idApellido"  maxlength="10" size="20" placeholder="p. ej.: Silva" required>
                             </div>
                         </div>
                         <div class="display-column">
@@ -246,7 +246,7 @@
                             id="idEmail"
                             maxlength="30" 
                             size="40" 
-                            placeholder="p. ej.: alo@gmail.com">
+                            placeholder="p. ej.: alo@gmail.com" required>
                         </div>
                         <div class="display-column">
                             <label for="comentarios">Comentarios:</label>
@@ -255,7 +255,7 @@
                             cols="20"
                             rows="10"
                             maxlength="500"
-                            placeholder="Escriba un mensaje aquí"></textarea>
+                            placeholder="Escriba un mensaje aquí" required></textarea>
                         </div>
                         <button class="btn-primary" type="submit">Enviar</button>
                     </form>

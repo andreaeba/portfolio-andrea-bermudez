@@ -26,17 +26,10 @@ body {
 ** secundary: 'Space Mono'
 */
 
-/*
-** Breakpoints
-*/
-
 section {
     width: 100vw;
-    /* height: 500px; */
     display: flex;
-    /* align-items: center; */
     justify-content: center;
-    /* background-color: aqua; */
     padding: 20px 0px;
     margin: 20px 0px;
 }
@@ -47,11 +40,8 @@ section {
 
 .section-wrap{
     width: 70vw;
-    /* height: 300px; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-   /* background-color: blueviolet; */
 }
 .display-row {
     display: flex;
@@ -83,8 +73,6 @@ h4 {
     font-size: 13px;
     padding: 0px 10px;
     height: 40px;
-    /* border: 1px solid white;
-    border-radius: 10px; */
     display: flex;
     justify-content: center;
     align-items: center;
