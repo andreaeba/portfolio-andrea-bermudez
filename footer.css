@@ -4,27 +4,38 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: aqua; */
     padding: 20px 0px;
     margin: 20px 0px;
 }
-footer li {
-    padding: 15px 15px;
+.nav-menu-font li, p {
+    padding: 30px 15px;
 }
 .nav-menu-font {
     font-family: 'Space Mono';
 }
-.footer-icon {
-    width: 50px;
-    height: 50px;
+.footer-social-link{
     background-color: white;
-    /* border: 1px solid black; */
     border-radius: 50%;
-    margin: 20px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer-icon i{
+    margin: 10px;
+    padding: 10px 13px;
     color: #0A192F;
 }
+
+/*
+** Animaciones y transiciones
+*/
+.footer-social-link:hover {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+} 
+
+.footer-social-link:active{
+    box-shadow: 0px 0px 34px 0px rgba(208,200,200,0.75);
+    -webkit-box-shadow: 0px 0px 34px 0px rgba(208,200,200,0.75);
+    -moz-box-shadow: 0px 0px 34px 0px rgba(208,200,200,0.75);
+}
+
+/*
+** Responsive
+*/

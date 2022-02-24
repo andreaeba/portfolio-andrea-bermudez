@@ -14,16 +14,21 @@ body {
 
 /*
 ** Colors
-** primary: #0A192F
-** secundary: #64FFDA
-** letters: #CCD6F6
+** primary: #0A192F dark blue
+** secundary: #64FFDA aqua
+** letters: #CCD6F6 grey
 */
 
 /*
 ** Fonts
-** primary: Roboto
-** secundary: Space Mono
+** primary: 'Roboto'
+** secundary: 'Space Mono'
 */
+
+/*
+** Breakpoints
+*/
+
 section {
     width: 100vw;
     /* height: 500px; */
@@ -87,4 +92,12 @@ h4 {
 }
 .margin-top {
     margin-top: 120px;
+}
+/*
+** Animaciones y transiciones
+*/
+.btn-primary:active{
+    box-shadow: 0px 0px 34px 0px rgba(208,200,200,0.75);
+    -webkit-box-shadow: 0px 0px 34px 0px rgba(208,200,200,0.75);
+    -moz-box-shadow: 0px 0px 34px 0px rgba(208,200,200,0.75);
 }

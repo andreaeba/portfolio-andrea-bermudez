@@ -11,19 +11,25 @@
     margin: 40px;
     color: #0A192F;
 }
-.contact ul{
+/* .contact ul{
     margin-top: 30px;
+} */
+.contact ul li{
+    margin: 10px 0px;
 }
-.contact li{
-    padding: 10px 0px;
+.social-media-item{
+    color: #0A192F;
+    /* border: 2px solid blue; */
+    padding: 0px 20px;
+    /* margin: 0px 20px; */
 }
 .contact i{
     color: #0A192F;
-    margin: 0px 10px;
+    padding: 10px;
 }
-.contact span{
+/* .contact span{
     color: #0A192F;
-}
+} */
 .name-lastname{
     width: 48%;
 }
@@ -51,10 +57,25 @@ form button{
 /*
 ** Animaciones y transiciones
 */
+.social-media-item:hover{
+    color: #64FFDA;
+    /* padding: 10px; */
+}
+.social-media-item:hover i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #64FFDA;
+    color: white;
+}
+/* .icon-and-text:hover .contact-icon {
+    background-color: #024F59;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
 
-/* .social-media-item i:hover{
-    color: wheat;
-
+.icon-and-text:hover .social-item-text{
+    color: #024F59;
 } */
 
 /*
