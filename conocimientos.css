@@ -54,3 +54,9 @@
 /*
 ** Responsive
 */
+@media (max-width: 840px){
+    .skills-section p{
+        width: 90%;
+        padding: 10px;
+    }
+}
